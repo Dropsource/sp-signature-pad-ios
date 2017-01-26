@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C74216EF1E37A90900789B16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74216EE1E37A90900789B16 /* AppDelegate.swift */; };
+		C74216F61E37A90900789B16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C74216F51E37A90900789B16 /* Assets.xcassets */; };
+		C74216F91E37A90900789B16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C74216F71E37A90900789B16 /* LaunchScreen.storyboard */; };
+		C74217301E38FB7D00789B16 /* SignatureTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C742172F1E38FB7D00789B16 /* SignatureTestViewController.swift */; };
+		C79AED4A1E39C2FE00AE3DC5 /* SPSignaturePad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C79AED491E39C2CB00AE3DC5 /* SPSignaturePad.framework */; };
+		C79AED4B1E39C2FE00AE3DC5 /* SPSignaturePad.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C79AED491E39C2CB00AE3DC5 /* SPSignaturePad.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C7C650B71E39208D00CE2A6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7C650B61E39208D00CE2A6F /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C79AED481E39C2CB00AE3DC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C79AED441E39C2CB00AE3DC5 /* SPSignaturePad.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C7C6507E1E391F7400CE2A6F;
+			remoteInfo = SPSignaturePad;
+		};
+		C79AED4C1E39C2FE00AE3DC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C79AED441E39C2CB00AE3DC5 /* SPSignaturePad.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C7C6507D1E391F7400CE2A6F;
+			remoteInfo = SPSignaturePad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C79AED4E1E39C2FE00AE3DC5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C79AED4B1E39C2FE00AE3DC5 /* SPSignaturePad.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C74216EB1E37A90900789B16 /* SignaturePadTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignaturePadTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C74216EE1E37A90900789B16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C74216F51E37A90900789B16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C74216F81E37A90900789B16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C74216FA1E37A90900789B16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C742172F1E38FB7D00789B16 /* SignatureTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignatureTestViewController.swift; sourceTree = "<group>"; };
+		C79AED441E39C2CB00AE3DC5 /* SPSignaturePad.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SPSignaturePad.xcodeproj; path = ../Framework/SPSignaturePad.xcodeproj; sourceTree = "<group>"; };
+		C7C650B61E39208D00CE2A6F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C74216E81E37A90900789B16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C79AED4A1E39C2FE00AE3DC5 /* SPSignaturePad.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C74216E21E37A90900789B16 = {
+			isa = PBXGroup;
+			children = (
+				C79AED441E39C2CB00AE3DC5 /* SPSignaturePad.xcodeproj */,
+				C74216ED1E37A90900789B16 /* SignatureViewTest */,
+				C74216EC1E37A90900789B16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C74216EC1E37A90900789B16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C74216EB1E37A90900789B16 /* SignaturePadTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C74216ED1E37A90900789B16 /* SignatureViewTest */ = {
+			isa = PBXGroup;
+			children = (
+				C74216F51E37A90900789B16 /* Assets.xcassets */,
+				C74216EE1E37A90900789B16 /* AppDelegate.swift */,
+				C74216F71E37A90900789B16 /* LaunchScreen.storyboard */,
+				C74216FA1E37A90900789B16 /* Info.plist */,
+				C742172F1E38FB7D00789B16 /* SignatureTestViewController.swift */,
+				C7C650B61E39208D00CE2A6F /* Main.storyboard */,
+			);
+			path = SignatureViewTest;
+			sourceTree = "<group>";
+		};
+		C79AED451E39C2CB00AE3DC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C79AED491E39C2CB00AE3DC5 /* SPSignaturePad.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C74216EA1E37A90900789B16 /* SignaturePadTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C74216FD1E37A90900789B16 /* Build configuration list for PBXNativeTarget "SignaturePadTest" */;
+			buildPhases = (
+				C74216E71E37A90900789B16 /* Sources */,
+				C74216E81E37A90900789B16 /* Frameworks */,
+				C74216E91E37A90900789B16 /* Resources */,
+				C79AED4E1E39C2FE00AE3DC5 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C79AED4D1E39C2FE00AE3DC5 /* PBXTargetDependency */,
+			);
+			name = SignaturePadTest;
+			productName = SignatureViewTest;
+			productReference = C74216EB1E37A90900789B16 /* SignaturePadTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C74216E31E37A90900789B16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "James McKowen";
+				TargetAttributes = {
+					C74216EA1E37A90900789B16 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C74216E61E37A90900789B16 /* Build configuration list for PBXProject "SignaturePadTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C74216E21E37A90900789B16;
+			productRefGroup = C74216EC1E37A90900789B16 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C79AED451E39C2CB00AE3DC5 /* Products */;
+					ProjectRef = C79AED441E39C2CB00AE3DC5 /* SPSignaturePad.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				C74216EA1E37A90900789B16 /* SignaturePadTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C79AED491E39C2CB00AE3DC5 /* SPSignaturePad.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SPSignaturePad.framework;
+			remoteRef = C79AED481E39C2CB00AE3DC5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C74216E91E37A90900789B16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7C650B71E39208D00CE2A6F /* Main.storyboard in Resources */,
+				C74216F91E37A90900789B16 /* LaunchScreen.storyboard in Resources */,
+				C74216F61E37A90900789B16 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C74216E71E37A90900789B16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C74216EF1E37A90900789B16 /* AppDelegate.swift in Sources */,
+				C74217301E38FB7D00789B16 /* SignatureTestViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C79AED4D1E39C2FE00AE3DC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SPSignaturePad;
+			targetProxy = C79AED4C1E39C2FE00AE3DC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C74216F71E37A90900789B16 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C74216F81E37A90900789B16 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C74216FB1E37A90900789B16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C74216FC1E37A90900789B16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C74216FE1E37A90900789B16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SignatureViewTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jamckon.SignatureViewTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C74216FF1E37A90900789B16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SignatureViewTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jamckon.SignatureViewTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C74216E61E37A90900789B16 /* Build configuration list for PBXProject "SignaturePadTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C74216FB1E37A90900789B16 /* Debug */,
+				C74216FC1E37A90900789B16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C74216FD1E37A90900789B16 /* Build configuration list for PBXNativeTarget "SignaturePadTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C74216FE1E37A90900789B16 /* Debug */,
+				C74216FF1E37A90900789B16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C74216E31E37A90900789B16 /* Project object */;
+}

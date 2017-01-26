@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Signature Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="SPSignatureController" customModule="SPSignaturePad" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IIM-IQ-QC1" customClass="SPSignaturePad" customModule="SPSignaturePad" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="637"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jbP-Ax-C76">
+                                <rect key="frame" x="0.0" y="637" width="375" height="30"/>
+                                <state key="normal" title="Clear"/>
+                                <connections>
+                                    <action selector="printJSONStringButtonActivated:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Xi-8H-RRY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="jbP-Ax-C76" secondAttribute="trailing" id="JfD-2R-3ef"/>
+                            <constraint firstAttribute="trailing" secondItem="IIM-IQ-QC1" secondAttribute="trailing" id="Oy9-eF-oWP"/>
+                            <constraint firstItem="jbP-Ax-C76" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Q3p-er-Nfn"/>
+                            <constraint firstItem="IIM-IQ-QC1" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Qct-jL-Tdc"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="jbP-Ax-C76" secondAttribute="bottom" id="grV-4m-C5g"/>
+                            <constraint firstItem="IIM-IQ-QC1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="tnx-kh-nzZ"/>
+                            <constraint firstItem="jbP-Ax-C76" firstAttribute="top" secondItem="IIM-IQ-QC1" secondAttribute="bottom" id="yu3-qD-6un"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="ydK-Cq-1Xm">
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="HNg-c2-Uph">
+                            <connections>
+                                <action selector="backButtonActivated:" destination="BYZ-38-t0r" id="4up-Xq-rnd"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Done" id="VxY-AE-quQ">
+                            <connections>
+                                <action selector="doneButtonActivated:" destination="BYZ-38-t0r" id="yIw-Nc-Dei"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="signatureView" destination="IIM-IQ-QC1" id="1pq-4z-qs9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1056.8" y="122.78860569715144"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="gXD-3p-2kl">
+            <objects>
+                <navigationController storyboardIdentifier="SignatureNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="amH-06-3a7" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="r3J-be-rXf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="k85-ki-esc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vSk-xx-ijP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="122.78860569715144"/>
+        </scene>
+    </scenes>
+</document>

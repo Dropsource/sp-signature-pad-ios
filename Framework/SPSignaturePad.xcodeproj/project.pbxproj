@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C79AED501E39C39100AE3DC5 /* SPSignaturePad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C79AED4F1E39C39100AE3DC5 /* SPSignaturePad.storyboard */; };
 		C7C650831E391F7400CE2A6F /* SPSignaturePad.h in Headers */ = {isa = PBXBuildFile; fileRef = C7C650811E391F7400CE2A6F /* SPSignaturePad.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C7C6508C1E391FA800CE2A6F /* SPSignatureManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C650891E391FA800CE2A6F /* SPSignatureManager.swift */; };
 		C7C6508D1E391FA800CE2A6F /* SPSignatureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C6508A1E391FA800CE2A6F /* SPSignatureController.swift */; };
@@ -22,13 +23,13 @@
 		C7C650A31E391FBD00CE2A6F /* json2.min.js in Resources */ = {isa = PBXBuildFile; fileRef = C7C650981E391FBC00CE2A6F /* json2.min.js */; };
 		C7C650A41E391FBD00CE2A6F /* numeric-1.2.6.min.js in Resources */ = {isa = PBXBuildFile; fileRef = C7C650991E391FBC00CE2A6F /* numeric-1.2.6.min.js */; };
 		C7C650A51E391FBD00CE2A6F /* pen.cur in Resources */ = {isa = PBXBuildFile; fileRef = C7C6509A1E391FBC00CE2A6F /* pen.cur */; };
-		C7C650B51E39203600CE2A6F /* SPSignaturePad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7C650B41E39203600CE2A6F /* SPSignaturePad.storyboard */; };
 		C7C650BE1E39254A00CE2A6F /* signaturepad.html in Resources */ = {isa = PBXBuildFile; fileRef = C7C650BD1E39254A00CE2A6F /* signaturepad.html */; };
 		C7C650C01E39259600CE2A6F /* jquery.min.js in Resources */ = {isa = PBXBuildFile; fileRef = C7C650BF1E39259600CE2A6F /* jquery.min.js */; };
 		C7C650C41E392D8900CE2A6F /* jquery.signaturepad.js in Resources */ = {isa = PBXBuildFile; fileRef = C7C650C31E392D8900CE2A6F /* jquery.signaturepad.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C79AED4F1E39C39100AE3DC5 /* SPSignaturePad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SPSignaturePad.storyboard; sourceTree = "<group>"; };
 		C7C6507E1E391F7400CE2A6F /* SPSignaturePad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SPSignaturePad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7C650811E391F7400CE2A6F /* SPSignaturePad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPSignaturePad.h; sourceTree = "<group>"; };
 		C7C650821E391F7400CE2A6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,7 +47,6 @@
 		C7C650981E391FBC00CE2A6F /* json2.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = json2.min.js; sourceTree = "<group>"; };
 		C7C650991E391FBC00CE2A6F /* numeric-1.2.6.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "numeric-1.2.6.min.js"; sourceTree = "<group>"; };
 		C7C6509A1E391FBC00CE2A6F /* pen.cur */ = {isa = PBXFileReference; lastKnownFileType = file; path = pen.cur; sourceTree = "<group>"; };
-		C7C650B31E39203600CE2A6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SPSignaturePad.storyboard; sourceTree = "<group>"; };
 		C7C650BD1E39254A00CE2A6F /* signaturepad.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = signaturepad.html; sourceTree = "<group>"; };
 		C7C650BF1E39259600CE2A6F /* jquery.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.min.js; sourceTree = "<group>"; };
 		C7C650C31E392D8900CE2A6F /* jquery.signaturepad.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.signaturepad.js; sourceTree = "<group>"; };
@@ -66,7 +66,7 @@
 		C7C650741E391F7400CE2A6F = {
 			isa = PBXGroup;
 			children = (
-				C7C650B41E39203600CE2A6F /* SPSignaturePad.storyboard */,
+				C79AED4F1E39C39100AE3DC5 /* SPSignaturePad.storyboard */,
 				C7C6508F1E391FBC00CE2A6F /* Javascript */,
 				C7C650891E391FA800CE2A6F /* SPSignatureManager.swift */,
 				C7C6508A1E391FA800CE2A6F /* SPSignatureController.swift */,
@@ -193,10 +193,10 @@
 				C7C650A21E391FBC00CE2A6F /* jquery.signaturepad.css in Resources */,
 				C7C650C41E392D8900CE2A6F /* jquery.signaturepad.js in Resources */,
 				C7C6509D1E391FBC00CE2A6F /* flashcanvas.swf in Resources */,
-				C7C650B51E39203600CE2A6F /* SPSignaturePad.storyboard in Resources */,
 				C7C6509F1E391FBC00CE2A6F /* journal.svg in Resources */,
 				C7C6509B1E391FBC00CE2A6F /* bezier.js in Resources */,
 				C7C650BE1E39254A00CE2A6F /* signaturepad.html in Resources */,
+				C79AED501E39C39100AE3DC5 /* SPSignaturePad.storyboard in Resources */,
 				C7C650A31E391FBD00CE2A6F /* json2.min.js in Resources */,
 				C7C650A51E391FBD00CE2A6F /* pen.cur in Resources */,
 				C7C6509C1E391FBC00CE2A6F /* flashcanvas.js in Resources */,
@@ -217,18 +217,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		C7C650B41E39203600CE2A6F /* SPSignaturePad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C7C650B31E39203600CE2A6F /* Base */,
-			);
-			name = SPSignaturePad.storyboard;
-			path = ../SignatureViewTest/SignatureViewTest;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C7C650841E391F7400CE2A6F /* Debug */ = {
