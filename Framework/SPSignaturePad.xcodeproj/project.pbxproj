@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2230DA51216CE47A001224F1 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 2230DA50216CE47A001224F1 /* Cartfile */; };
 		C79AED501E39C39100AE3DC5 /* SPSignaturePad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C79AED4F1E39C39100AE3DC5 /* SPSignaturePad.storyboard */; };
 		C7C650831E391F7400CE2A6F /* SPSignaturePad.h in Headers */ = {isa = PBXBuildFile; fileRef = C7C650811E391F7400CE2A6F /* SPSignaturePad.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C7C6508C1E391FA800CE2A6F /* SPSignatureManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C650891E391FA800CE2A6F /* SPSignatureManager.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2230DA50216CE47A001224F1 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 		C79AED4F1E39C39100AE3DC5 /* SPSignaturePad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SPSignaturePad.storyboard; sourceTree = "<group>"; };
 		C7C6507E1E391F7400CE2A6F /* SPSignaturePad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SPSignaturePad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7C650811E391F7400CE2A6F /* SPSignaturePad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPSignaturePad.h; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 		C7C650741E391F7400CE2A6F = {
 			isa = PBXGroup;
 			children = (
+				2230DA50216CE47A001224F1 /* Cartfile */,
 				C79AED4F1E39C39100AE3DC5 /* SPSignaturePad.storyboard */,
 				C7C6508F1E391FBC00CE2A6F /* Javascript */,
 				C7C650891E391FA800CE2A6F /* SPSignatureManager.swift */,
@@ -187,6 +190,7 @@
 			files = (
 				C7C650A41E391FBD00CE2A6F /* numeric-1.2.6.min.js in Resources */,
 				C7C650A01E391FBC00CE2A6F /* journal.ttf in Resources */,
+				2230DA51216CE47A001224F1 /* Cartfile in Resources */,
 				C7C650C01E39259600CE2A6F /* jquery.min.js in Resources */,
 				C7C650A11E391FBC00CE2A6F /* journal.woff in Resources */,
 				C7C6509E1E391FBC00CE2A6F /* journal.eot in Resources */,
@@ -331,6 +335,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = jamckon.SPSignaturePad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

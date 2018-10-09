@@ -1,11 +1,3 @@
-//
-//  SPSignaturePad.swift
-//  SignatureViewTest
-//
-//  Created by James McKowen on 1/24/17.
-//  Copyright © 2017 James McKowen. All rights reserved.
-//
-
 import UIKit
 
 public class SPSignaturePadOptions {
